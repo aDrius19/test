@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+ }
+ 
+ .page-title {
+    text-align: center;
+ }
+ 
+ nav {
+    padding: 10px;
+    text-align: center;
+ }
+ 
+ nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ 
+ nav > a:hover {
+    color: red;
+ }
+
+ .image-content > img 
+ {
+     max-width: 500px;
+ }
+
+ .gallery 
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .next, .back
+ {
+    font-size: 50px;
+    cursor: pointer;
+    color: green;
+
+ }
